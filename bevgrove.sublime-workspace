@@ -1,0 +1,1181 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"list",
+				"listTable"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"margin",
+				"margin-top: 〔property〕"
+			],
+			[
+				"pa",
+				"padding-right"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"getE",
+				"getElementById"
+			],
+			[
+				"ini",
+				"initialize〔function〕"
+			],
+			[
+				"product",
+				"product_category"
+			],
+			[
+				"bg",
+				"bgc	background-color: #${1:fff};"
+			],
+			[
+				"app",
+				"application"
+			],
+			[
+				"sty",
+				"stylesheet_link_tag〔function〕"
+			],
+			[
+				"stati",
+				"static_pages/home"
+			],
+			[
+				"max",
+				"maximum〔function〕"
+			],
+			[
+				"mi",
+				"microposts"
+			],
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"con",
+				"container"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"font",
+				"font-variant"
+			],
+			[
+				"res",
+				"restaurants"
+			],
+			[
+				"par",
+				"parseData〔function〕"
+			],
+			[
+				"parse",
+				"parseData〔function〕"
+			],
+			[
+				"yelp",
+				"yelpname〔argument〕"
+			],
+			[
+				"get",
+				"getScript"
+			],
+			[
+				"paddi",
+				"padding-top"
+			],
+			[
+				"p",
+				"pmoves"
+			],
+			[
+				"to",
+				"toString"
+			],
+			[
+				"move",
+				"moveList"
+			],
+			[
+				"poss",
+				"possmoves"
+			],
+			[
+				"mov",
+				"moveList"
+			],
+			[
+				"parm",
+				"parameters〔variable〕"
+			],
+			[
+				"aNat",
+				"aNatural"
+			],
+			[
+				"aN",
+				"aNumber"
+			],
+			[
+				"as",
+				"asLargeInteger"
+			],
+			[
+				"sm",
+				"SmallInteger"
+			],
+			[
+				"nega",
+				"negated"
+			],
+			[
+				"addL",
+				"addLargePositiveIntegerTo"
+			],
+			[
+				"Lar",
+				"LargeInteger"
+			],
+			[
+				"negat",
+				"negative"
+			],
+			[
+				"chec",
+				"checked-runtime-error"
+			],
+			[
+				"pr",
+				"partialProd"
+			],
+			[
+				"print",
+				"println"
+			],
+			[
+				"doDii",
+				"doDigitsRev"
+			],
+			[
+				"copy",
+				"copyBack"
+			],
+			[
+				"do",
+				"doDigitsRev"
+			],
+			[
+				"zer",
+				"zeroOut"
+			],
+			[
+				"current",
+				"currentX"
+			],
+			[
+				"digi",
+				"digit"
+			],
+			[
+				"ne",
+				"nextXDigit"
+			],
+			[
+				"doDigits",
+				"doDigitsRev"
+			],
+			[
+				"i",
+				"iterator"
+			],
+			[
+				"digits",
+				"digitsArr"
+			],
+			[
+				"cur",
+				"currentDigit"
+			],
+			[
+				"cu",
+				"currentNumber"
+			],
+			[
+				"cit",
+				"citystate〔variable〕"
+			],
+			[
+				"search",
+				"searchLoc〔variable〕"
+			],
+			[
+				"add",
+				"addRest"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"food",
+				"foodname"
+			],
+			[
+				"new",
+				"newevniroenf"
+			],
+			[
+				"type",
+				"typeString"
+			],
+			[
+				"un",
+				"unzip"
+			],
+			[
+				"List",
+				"ListPair"
+			],
+			[
+				"funty",
+				"funty"
+			],
+			[
+				"eq",
+				"eqTypes"
+			],
+			[
+				"loc",
+				"localStorage"
+			],
+			[
+				"left",
+				"LeftAsExercise"
+			],
+			[
+				"e",
+				"e"
+			],
+			[
+				"bod",
+				"bodytypes"
+			],
+			[
+				"LET",
+				"LETSTAR"
+			],
+			[
+				"name",
+				"nametypes"
+			],
+			[
+				"Un",
+				"unittype"
+			],
+			[
+				"boo",
+				"booltype"
+			],
+			[
+				"tau",
+				"tau_v2l"
+			],
+			[
+				"Not",
+				"NotFound"
+			],
+			[
+				"sym",
+				"symtype"
+			],
+			[
+				"intt",
+				"inttype"
+			],
+			[
+				"bool",
+				"booltype"
+			],
+			[
+				"Lit",
+				"LITERAL"
+			],
+			[
+				"of",
+				"of"
+			],
+			[
+				"que",
+				"queuetype"
+			],
+			[
+				"Type",
+				"TypeError"
+			],
+			[
+				"INTT",
+				"INTTY"
+			],
+			[
+				"ARa",
+				"ARRAYTY"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"set",
+				"setMap"
+			],
+			[
+				"my",
+				"myLogin"
+			],
+			[
+				"t",
+				"text/javascript"
+			],
+			[
+				"freeIn",
+				"freeIn"
+			],
+			[
+				"tree",
+				"treeFoldr"
+			],
+			[
+				"f",
+				"firstVowel"
+			],
+			[
+				"make-",
+				"make-formula"
+			],
+			[
+				"make",
+				"make-literal"
+			],
+			[
+				"suc",
+				"success"
+			],
+			[
+				"var",
+				"variable-of"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"nav",
+				"navbar-brand"
+			],
+			[
+				"fot",
+				"font-size"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"ed",
+				"edge-list-of-successors-map"
+			],
+			[
+				"contig",
+				"contig-sublist"
+			],
+			[
+				"su",
+				"sublist-helper"
+			],
+			[
+				"border-image",
+				"border-image-source"
+			],
+			[
+				"mirror",
+				"mirror-helper"
+			],
+			[
+				"drop",
+				"dropwhile"
+			],
+			[
+				"take",
+				"takewhile"
+			],
+			[
+				"tak",
+				"takewhile"
+			],
+			[
+				"unz",
+				"unzip-helper2"
+			],
+			[
+				"unzip",
+				"unzip-helper1"
+			],
+			[
+				"fo",
+				"font-weight"
+			],
+			[
+				"zip",
+				"zip-helper"
+			],
+			[
+				"arg",
+				"arg-max-helper"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"lef",
+				"left"
+			],
+			[
+				"s",
+				"script	Tag"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"in",
+				"text-indent"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"paddin",
+				"padding-bottom"
+			],
+			[
+				"v",
+				"vertical-align"
+			],
+			[
+				"fn",
+				"font-weight"
+			],
+			[
+				"de",
+				"text-decoration"
+			],
+			[
+				"al",
+				"vertical-align"
+			],
+			[
+				"border-co",
+				"border-color"
+			],
+			[
+				"bord",
+				"border-top"
+			],
+			[
+				"backgroun",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "public/index2.html",
+			"settings":
+			{
+				"buffer_size": 7536,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/customtheme.css",
+			"settings":
+			{
+				"buffer_size": 467,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "server.js",
+			"settings":
+			{
+				"buffer_size": 1756,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "data.tsv",
+			"settings":
+			{
+				"buffer_size": 602,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: Enable Package"
+			],
+			[
+				"mark",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"markd",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"pacak",
+				"Package Control: Disable Package"
+			],
+			[
+				"bro",
+				"SFTP: Browse Server…"
+			],
+			[
+				"bros",
+				"SFTP: Browse Server…"
+			],
+			[
+				"br",
+				"SFTP: Browse Server…"
+			],
+			[
+				"brow",
+				"SFTP: Browse Server…"
+			],
+			[
+				"markdown",
+				"Markdown Preview: Save to HTML"
+			],
+			[
+				"brose",
+				"SFTP: Browse Server…"
+			],
+			[
+				"broe",
+				"SFTP: Browse Server…"
+			],
+			[
+				"browse",
+				"SFTP: Browse Server…"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"brack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"brows",
+				"SFTP: Browse Server…"
+			],
+			[
+				"browe",
+				"SFTP: Browse Server…"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"sf",
+				"SFTP: Browse Server…"
+			],
+			[
+				"sftp",
+				"SFTP: Browse Server…"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"BROWS",
+				"SFTP: Browse Server…"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Pakc",
+				"Package Control: Install Package"
+			],
+			[
+				"latex",
+				"LaTeXTools: Reconfigure and migrate settings"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 77.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/AlexanderRavan/GitHub/comp20-aravan/secure-escarpment-4227/server.js",
+		"/Users/AlexanderRavan/GitHub/bevgrove/server.js",
+		"/Users/AlexanderRavan/GitHub/bevgrove/public/index2.html",
+		"/Users/AlexanderRavan/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/AlexanderRavan/GitHub/bevgrove/app/test.html",
+		"/Users/AlexanderRavan/GitHub/bevgrove/app/index.html",
+		"/Users/AlexanderRavan/GitHub/bevgrove/app/index2.html",
+		"/Users/AlexanderRavan/GitHub/comp20-aravan/mmap/index.html",
+		"/Users/AlexanderRavan/GitHub/bevgrove/index.html",
+		"/Users/AlexanderRavan/GitHub/bevgrove/testmap.html",
+		"/Users/AlexanderRavan/GitHub/comp20-spring2015-team18/public/about.html",
+		"/Users/AlexanderRavan/GitHub/comp20-spring2015-team18/working/public/index.html",
+		"/Users/AlexanderRavan/GitHub/bevgrove/customtheme.css",
+		"/Users/AlexanderRavan/GitHub/django/mysite/mysite/settings.py",
+		"/Users/AlexanderRavan/GitHub/django/my_django15_project/my_django15_project/settings.py",
+		"/Users/AlexanderRavan/GitHub/django/my_django15_project/manage.py",
+		"/Users/AlexanderRavan/GitHub/django/my_django15_project/.gitignore",
+		"/Users/AlexanderRavan/GitHub/django/requirements.txt",
+		"/Users/AlexanderRavan/valex/Gemfile",
+		"/Users/AlexanderRavan/valex/config/environments/development.rb",
+		"/Users/AlexanderRavan/valex/app/admin/admin_user.rb",
+		"/Users/AlexanderRavan/Creative Services/Projects/frilled/index.html",
+		"/Users/AlexanderRavan/Creative Services/Projects/frilled/custom.css",
+		"/Users/AlexanderRavan/Creative Services/Projects/Flower Power/index.html",
+		"/Users/AlexanderRavan/GitHub/comp20-spring2015-team18/working/server.js",
+		"/Users/AlexanderRavan/shop/Gemfile",
+		"/Users/AlexanderRavan/shop/app/views/products/index.html.erb",
+		"/Users/AlexanderRavan/shop/app/controllers/products_controller.rb",
+		"/Users/AlexanderRavan/shop/config/routes.rb",
+		"/Users/AlexanderRavan/shopp/app/controllers/products_controller.rb",
+		"/Users/AlexanderRavan/shopp/app/views/products/index.html.erb",
+		"/Users/AlexanderRavan/.bashrc",
+		"/Users/AlexanderRavan/.bash",
+		"/Users/AlexanderRavan/shopp/config/routes.rb",
+		"/Users/AlexanderRavan/frilled/config/initializers/spree_config.rb",
+		"/Users/AlexanderRavan/frilled/app/assets/stylesheets/application.css",
+		"/Users/AlexanderRavan/frilled/vendor/assets/javascripts/spree/frontend/all.js",
+		"/Users/AlexanderRavan/frilled/vendor/assets/stylesheets/spree/frontend/all.css",
+		"/Users/AlexanderRavan/mystore/Gemfile",
+		"/Users/AlexanderRavan/frilled/config/initializers/spree.rb",
+		"/Users/AlexanderRavan/sample_app/app/views/layouts/application.html.erb",
+		"/Users/AlexanderRavan/sample_app/Gemfile",
+		"/Users/AlexanderRavan/frilled/Gemfile",
+		"/Users/AlexanderRavan/demo_app/app/views/layouts/application.html.erb",
+		"/Users/AlexanderRavan/valex/app/models/owner.rb",
+		"/Users/AlexanderRavan/valex/app/models/car.rb",
+		"/Users/AlexanderRavan/valex/app/controllers/cars_controller.rb",
+		"/Users/AlexanderRavan/valex/app/controllers/owners_controller.rb",
+		"/Users/AlexanderRavan/sample_app/app/helpers/application_helper.rb",
+		"/Users/AlexanderRavan/GitHub/alexravan.github.io/bio.html",
+		"/Users/AlexanderRavan/GitHub/alexravan.github.io/bjj.html",
+		"/Users/AlexanderRavan/GitHub/alexravan.github.io/bunga.html",
+		"/Users/AlexanderRavan/GitHub/alexravan.github.io/cafe.html",
+		"/Users/AlexanderRavan/GitHub/alexravan.github.io/calif.html",
+		"/Users/AlexanderRavan/GitHub/alexravan.github.io/emr.html",
+		"/Users/AlexanderRavan/GitHub/alexravan.github.io/index.html",
+		"/Users/AlexanderRavan/GitHub/alexravan.github.io/lb.html",
+		"/Users/AlexanderRavan/GitHub/alexravan.github.io/maven.html",
+		"/Users/AlexanderRavan/GitHub/alexravan.github.io/obsox.html",
+		"/Users/AlexanderRavan/GitHub/alexravan.github.io/portfolio.html",
+		"/Users/AlexanderRavan/GitHub/alexravan.github.io/resume.html",
+		"/Users/AlexanderRavan/GitHub/alexravan.github.io/reveal.html",
+		"/Users/AlexanderRavan/GitHub/alexravan.github.io/sfr.html",
+		"/Users/AlexanderRavan/GitHub/alexravan.github.io/vox.html",
+		"/Users/AlexanderRavan/GitHub/alexravan.github.io/b2bf.html",
+		"/Users/AlexanderRavan/GitHub/alexravan.github.io/vtl.html",
+		"/Users/AlexanderRavan/Documents/Tufts/Sophomore/Comp 40/rpn/submit/calc40.ums",
+		"/Users/AlexanderRavan/Documents/Tufts/Sophomore/Comp 40/rpn/submit/README.md",
+		"/Users/AlexanderRavan/GitHub/optimized_um/README.md",
+		"/Users/AlexanderRavan/GitHub/universal machine/README.md",
+		"/Users/AlexanderRavan/GitHub/universal machine/README",
+		"/Users/AlexanderRavan/sample_app/test/controllers/static_pages_controller_test.rb",
+		"/Users/AlexanderRavan/sample_app/app/controllers/static_pages_controller.rb",
+		"/Users/AlexanderRavan/sample_app/config/routes.rb",
+		"/Users/AlexanderRavan/sample_app/app/views/static_pages/about.html.erb",
+		"/Users/AlexanderRavan/sample_app/app/views/static_pages/home.html.erb",
+		"/Users/AlexanderRavan/sample_app/app/views/static_pages/help.html.erb",
+		"/Users/AlexanderRavan/demo_app/app/models/user.rb",
+		"/Users/AlexanderRavan/demo_app/app/models/micropost.rb",
+		"/Users/AlexanderRavan/demo_app/config/routes.rb",
+		"/Users/AlexanderRavan/demo_app/app/controllers/users_controller.rb",
+		"/Users/AlexanderRavan/demo_app/app/views/users/index.html.erb",
+		"/Users/AlexanderRavan/demo_app/Gemfile",
+		"/Users/AlexanderRavan/demo_app/app/controllers/application_controller.rb",
+		"/Users/AlexanderRavan/blog/app/controllers/posts_controller.rb",
+		"/Users/AlexanderRavan/Creative Services/Projects/Flower Power/public/index.html",
+		"/Users/AlexanderRavan/GitHub/comp20-spring2015-team18/public/index.html",
+		"/var/folders/0t/_bt05gnn2bj09bdp1cfqqyxm0000gn/T/sublime-sftp-browse-1430754050/cstufts/h/aravan01/Desktop/comp105/hw9/tttsubmit/heapsort.sml",
+		"/var/folders/0t/_bt05gnn2bj09bdp1cfqqyxm0000gn/T/sublime-sftp-browse-1430753974/cstufts/h/aravan01/Desktop/comp105/hw9/tttsubmit/heap-sig.sml",
+		"/var/folders/0t/_bt05gnn2bj09bdp1cfqqyxm0000gn/T/sublime-sftp-browse-1430706386/cstufts/h/aravan01/Desktop/comp105/hw8/submit pair/bignum.smt",
+		"/Users/AlexanderRavan/GitHub/tbd/server.js",
+		"/Users/AlexanderRavan/GitHub/comp20-spring2015-team18/server.js",
+		"/Users/AlexanderRavan/GitHub/tbd/public/account.html",
+		"/Users/AlexanderRavan/GitHub/tbd/public/dim-sum-cafe-medford.html",
+		"/Users/AlexanderRavan/GitHub/tbd/public/foundry-on-elm-somerville.html",
+		"/Users/AlexanderRavan/GitHub/tbd/public/highland-kitchen-somerville.html",
+		"/Users/AlexanderRavan/GitHub/tbd/public/pescatore-somerville.html",
+		"/Users/AlexanderRavan/GitHub/tbd/public/posto-somerville.html",
+		"/Users/AlexanderRavan/GitHub/tbd/public/redbones-somerville.html",
+		"/Users/AlexanderRavan/GitHub/tbd/public/restaurantsearch.html",
+		"/Users/AlexanderRavan/GitHub/tbd/public/rosebud-american-kitchen-and-bar-somerville-5.html",
+		"/Users/AlexanderRavan/GitHub/tbd/public/roses-chinese-restaurant-medford.html",
+		"/Users/AlexanderRavan/GitHub/tbd/public/saloon-somerville.html",
+		"/Users/AlexanderRavan/GitHub/tbd/public/template.html",
+		"/Users/AlexanderRavan/GitHub/tbd/public/the-painted-burro-somerville.html",
+		"/Users/AlexanderRavan/GitHub/tbd/public/index.html",
+		"/Users/AlexanderRavan/GitHub/tbd/public/about.html",
+		"/Users/AlexanderRavan/GitHub/tbd/RestaurantMap.js",
+		"/Users/AlexanderRavan/GitHub/tbd/limitless-journey-2381/server.js",
+		"/Users/AlexanderRavan/GitHub/comp20-spring2015-team18/public/index-style.css",
+		"/Users/AlexanderRavan/GitHub/comp20-spring2015-team18/menus999.tsv",
+		"/Users/AlexanderRavan/GitHub/comp20-spring2015-team18/public/showAccount.js",
+		"/Users/AlexanderRavan/GitHub/comp20-spring2015-team18/public/RestaurantMap.js",
+		"/Users/AlexanderRavan/GitHub/comp20-spring2015-team18/public/pescatore-somerville.html",
+		"/Users/AlexanderRavan/GitHub/comp20-spring2015-team18/public/roses-chinese-restaurant-medford.html",
+		"/Users/AlexanderRavan/GitHub/comp20-spring2015-team18/public/saloon-somerville.html",
+		"/Users/AlexanderRavan/GitHub/comp20-spring2015-team18/public/template.html",
+		"/Users/AlexanderRavan/GitHub/comp20-spring2015-team18/public/the-painted-burro-somerville.html",
+		"/Users/AlexanderRavan/GitHub/comp20-spring2015-team18/public/rosebud-american-kitchen-and-bar-somerville-5.html",
+		"/Users/AlexanderRavan/GitHub/comp20-spring2015-team18/public/customtheme.css",
+		"/Users/AlexanderRavan/GitHub/comp20-spring2015-team18/public/dim-sum-cafe-medford.html",
+		"/Users/AlexanderRavan/GitHub/comp20-spring2015-team18/public/foundry-on-elm-somerville.html",
+		"/Users/AlexanderRavan/GitHub/comp20-spring2015-team18/public/highland-kitchen-somerville.html",
+		"/Users/AlexanderRavan/GitHub/comp20-spring2015-team18/public/pescatore.html",
+		"/Users/AlexanderRavan/GitHub/comp20-spring2015-team18/public/redbones-somerville.html",
+		"/Users/AlexanderRavan/GitHub/comp20-spring2015-team18/public/posto-somerville.html",
+		"/Users/AlexanderRavan/GitHub/comp20-spring2015-team18/public/restaurantsearch.html",
+		"/Users/AlexanderRavan/GitHub/comp20-spring2015-team18/public/pullyelp.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"test",
+			"get",
+			"mongo",
+			"logo",
+			"listTabl",
+			"mapOp",
+			"close",
+			"hide",
+			"close",
+			"show",
+			"on",
+			"info",
+			"hidein",
+			"console",
+			"blah",
+			"icon",
+			"getmy",
+			"server",
+			"enter",
+			"init",
+			"onload",
+			"get",
+			"post",
+			"send",
+			"init",
+			"xhr",
+			"nav",
+			"google.maps",
+			"class",
+			"localLat",
+			"api",
+			"git",
+			"meta",
+			"categ",
+			"local",
+			"get",
+			"local",
+			"visibl",
+			"rank",
+			"send",
+			"rank",
+			"init",
+			"RestaurantMAp",
+			"body",
+			"bod",
+			"food",
+			"body",
+			"pes",
+			"body",
+			"form",
+			"mee",
+			"white",
+			"png",
+			"high",
+			"found",
+			"TBD",
+			"rate",
+			"bootst",
+			"java",
+			"\"",
+			"done",
+			"restinfo",
+			"name",
+			"yelp",
+			"printRe",
+			"converted",
+			"con",
+			"conn",
+			"converted",
+			"converted) {\n                console.log(\"begin parseData\")\n                    console.log(converted);\n\n                    for (i = 0; i < converted.length; i++) {\n                        var name = converted[i]['foodname'];\n                        var id = converted[i]['foodid'];\n                        var descrip =  converted[i]['description'];\n                        var price =  converted[i]['price'];\n                        var yelp =  converted[i]['yelpid'];                  \n                        var rating =  converted[i]['rating'];\n                        var total =  converted[i]['Total']; \n",
+			"sear",
+			"blah",
+			"rest",
+			"consumerSec",
+			"key",
+			"v2",
+			"wh",
+			"init",
+			"other",
+			"poss",
+			"handle",
+			"raise",
+			"rais",
+			"excep",
+			"promt",
+			"tie",
+			"poss",
+			"toString",
+			"127",
+			"v2",
+			"param",
+			"Player.play",
+			"case",
+			"case ",
+			"true",
+			"p",
+			"x",
+			"hor",
+			"promp",
+			"promt",
+			"fst",
+			"car",
+			"fst",
+			"raise",
+			"?",
+			"local",
+			"mongo",
+			"12",
+			"local",
+			"near",
+			"print",
+			"10",
+			"add:W",
+			"negated",
+			"overf",
+			"here",
+			"small",
+			"digits",
+			"digit",
+			"LargeP",
+			"add:with",
+			"strictly",
+			"new",
+			"negated",
+			"Integer",
+			"strictly",
+			"class Integer",
+			"Integer"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "public/index2.html",
+					"settings":
+					{
+						"buffer_size": 7536,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "public/customtheme.css",
+					"settings":
+					{
+						"buffer_size": 467,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "server.js",
+					"settings":
+					{
+						"buffer_size": 1756,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "data.tsv",
+					"settings":
+					{
+						"buffer_size": 602,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.sftp":
+	{
+		"height": 40.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"resume.css",
+				"/Users/AlexanderRavan/Documents/Tufts/Sophomore/comp20/assignment1/theme.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}

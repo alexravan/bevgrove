@@ -39,7 +39,9 @@
 
               console.log("Inside serverRequest");
 
-              xhr.open("GET", "http://bevgrove.herokuapp.com/locations", true);
+              // xhr.open("GET", "http://bevgrove.herokuapp.com/locations", true);
+              xhr.open("GET", "http://localhost:3000/locations", true);
+
               // xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
               xhr.onreadystatechange = parseData;
 
@@ -93,7 +95,7 @@
       var styledMap = new google.maps.StyledMapType(stylesArray, {name: "Styled Map"});
       var cent = new google.maps.LatLng(34.076347,-118.370240);
       var mapOptions = {
-          zoom: 18,
+          zoom: 17,
           center: cent,
           mapTypeControlOptions: {
             mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'map_style']
@@ -142,8 +144,15 @@
             infowindow.setContent(data[i]['business']);
             infowindow.open(map, marker);
             document.getElementById('info').innerHTML = ("<h1>" + data[i]['business']);
+            document.getElementById('infoImg').innerHTML = ("<img class='infoImg' src='" + data[i]['img1'] + "'>");
+            if (data[i]['img2'] != '') {
+            document.getElementById('infoImg').innerHTML += ("<img class='infoImg' src='" + data[i]['img2'] + "'>"); }
+            if (data[i]['img3'] != '') {
+            document.getElementById('infoImg').innerHTML += ("<img class='infoImg' src='" + data[i]['img3'] + "'>");}
             $('#infoBox').show();
           }
+
+          
         })(marker, i));
       }
                     // descrip = data[i]['description'];
@@ -198,20 +207,66 @@ google.maps.event.addDomListener(window, 'load', initialize);
     </script>
   </head>
   <body>
-    <div class='navbar navbar-default navbar-fixed-top'>
+  <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img style="max-width:200px; margin-top: -7px;" src="images/logo-02.png" alt="Beverly Grove"></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+          <!-- <ul class="nav navbar-nav navbar-right">
+            <li><a href="../navbar/">Default</a></li>
+            <li><a href="../navbar-static-top/">Static top</a></li>
+            <li class="active"><a href="./">Fixed top <span class="sr-only">(current)</span></a></li>
+          </ul> -->
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+
+
+   <!--  <div class='navbar navbar-default navbar-fixed-top'>
         <a class="navbar-brand" href="#">
                 <img style="max-width:200px; margin-top: -7px;" src="images/logo-02.png" alt="">
             </a>
-    </div>
+
+
+    </div> -->
     <div class='col-xs-12' id='main' style="width:100%; height:100%;">
     <div id="map-canvas" class='col-xs-8'></div>
     <div id='right' class='col-xs-4'>
         <div id='infoBox' class='col-xs-12'>
-          infoBox
-                      <a onclick="hideInfo()" href='#'>X  Close</a>
+          <a onclick="hideInfo()" href='#'>
+            <img src="images/close-01.png" style="width:20px;height:20px" align="right">
+          </a>
 
           <div id='info' class='col-xs-12'> 
             info
+          </div>
+          <div id='infoImg' class='col-xs-12'>
           </div>
           
         </div>
@@ -227,7 +282,6 @@ google.maps.event.addDomListener(window, 'load', initialize);
     </tr>
     </thead>
     <tbody>
-    
 
     
         </div>
@@ -240,7 +294,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     
-    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
