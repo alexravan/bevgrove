@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Simple markers</title>
+    <style>
+      html, body, #map-canvas {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+    </style>
+  <!-- jQuery API -->
+   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+
+  <!-- Bootstrap core CSS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="customtheme.css" rel="stylesheet">
+
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script>
+    <script>
+      var parsed;
+       var xhr = new XMLHttpRequest();
+       var map; 
+      function getLocs() {
+
+              // var xhr = new XMLHttpRequest();
+
+              console.log("Inside serverRequest");
+
+              xhr.open("GET", "http://localhost:3000/locations", true);
+              // xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+              xhr.onreadystatechange = parseData;
+
+              // locs = $.get("http://localhost:3000/locations", 
+              //     function(data){
+              //         console.log("about to send data to parse");
+              //         parsed = parseData(data)}, "json" );
+              //         parsed;
+
+              xhr.send();
+      }
+
+      function parseData() {
+        console.log("Inside parseData");
+
+        if (xhr.readyState == 4 && xhr.status == 200) {
+            // if(data[0] == null) {
+                // console.log("PD error1");
+               
+            // } else {
+
+              data = JSON.parse(xhr.responseText);
+                for(i=0; i < data.length; i++ ){
+                    biz = data[i]['business'];
+                    lng = data[i]['long'];
+                    lat = data[i]['lat'];
+
+
+                     myLatlng = new google.maps.LatLng(lat,lng)
+        marker = new google.maps.Marker({
+        position: myLatlng,
+        map: map,
+        title: 'Hello World!'
+    });
+                    console.log(biz + " " + lng);
+                    // descrip = data[i]['description'];
+                    // price = data[i]['price'];
+                    // rating = data[i]['rating'];
+                    // totalRatings = data[i]['total'];
+                    // stars = (rating/totalRatings);
+                    // $('#Dishes').append("<h3>" + foodName + ": <a href='" + yelpid + ".html'>" + restname + "</a></h3><p>" + descrip+ "</p><p>$" + price + " | Stars: "+ Math.ceil(stars) + "</p>");
+                // }
+            }
+      }
+}
+  
+    var lngs = [-118.370240,  -118.370354, -118.369599] 
+    var lats = [34.076347,   34.076255,    34.076293]
+    
+    function initialize() 
+    { 
+
+      var myLatlng = new google.maps.LatLng(34.076347,-118.370240);
+      var mapOptions = {
+        zoom: 18,
+        center: myLatlng }
+
+      map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+
+      var marker = new google.maps.Marker({
+          position: myLatlng,
+          map: map,
+          title: 'Hello World!'
+      });
+
+      getLocs();
+    }
+  
+  function loop (locs){
+  console.log("before readystate");
+    console.log(locs);
+  // for (var i = 12; i >= 0; i--) 
+  // if (xhr.readyState == 4 && xhr.status == 200){
+    console.log("in readystate");
+    console.log(locs);
+    $.each(locs, function(){
+        myLatlng = new google.maps.LatLng(locs[i]['lat'],locs[i]['lng'])
+        marker = new google.maps.Marker({
+        position: myLatlng,
+        map: map,
+        title: 'Hello World!'
+    });
+  });
+
+
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+
+
+    function start () {
+      var locs = getLocs();
+      initialize();
+      loop(locs);
+
+    }
+    </script>
+  </head>
+  <body>
+    <div class='navbar navbar-inverse navbar-fixed-top'>
+    </div>
+    <!-- <div class='col-sm-6'> -->
+    <div id="map-canvas" class='col-xs-6'></div>
+  </div>
+    <div class='navbar navbar-inverse navbar-fixed-top'>
+  </div>
+  </body>
+
+   <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>

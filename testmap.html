@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html> 
+<head> 
+   <meta http-equiv="content-type" content="text/html; charset=UTF-8"/> 
+   <title>Google Maps Dark Water Style Demo</title> 
+   <script src="http://maps.google.com/maps/api/js?sensor=false" type="text/javascript"></script> 
+</head> 
+<body> 
+   <div id="map" style="width: 550px; height: 300px;"></div> 
+
+   <script type="text/javascript"> 
+     var myStyle = [
+       {
+         featureType: "administrative",
+         elementType: "labels",
+         stylers: [
+           { visibility: "on" }
+         ]
+       },{
+         featureType: "poi",
+         elementType: "labels",
+         stylers: [
+           { visibility: "off" }
+         ]
+       },{
+         featureType: "water",
+         elementType: "labels",
+         stylers: [
+           { visibility: "off" }
+         ]
+       },{
+         featureType: "road",
+         elementType: "labels",
+         stylers: [
+           { visibility: "on" }
+         ]
+       }
+     ];
+
+     var map = new google.maps.Map(document.getElementById('map'), {
+       mapTypeControlOptions: {
+         mapTypeIds: ['mystyle', google.maps.MapTypeId.ROADMAP, google.maps.MapTypeId.TERRAIN]
+       },
+       center: new google.maps.LatLng(30, 0),
+       zoom: 15,
+       mapTypeId: 'mystyle'
+     });
+
+     map.mapTypes.set('mystyle', new google.maps.StyledMapType(myStyle, { name: 'My Style' }));
+   </script> 
+</body> 
+</html>

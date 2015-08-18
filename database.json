@@ -1,0 +1,119 @@
+[
+  {
+    "BUSINESS":"Kings Road Cafe",
+    "CATEGORY":"dining",
+    "LONG":34.076279,
+    "LAT":-118.372326,
+    "PHONE":"",
+    "ADDRESS":"",
+    "IMAGE":""
+  },
+  {
+    "BUSINESS":"Beverly Hills Juice Club",
+    "CATEGORY":"dining",
+    "LONG":34.075856,
+    "LAT":-118.372923,
+    "PHONE":"",
+    "ADDRESS":"",
+    "IMAGE":""
+  },
+  {
+    "BUSINESS":"Mandarette Chinese Cafe",
+    "CATEGORY":"dining",
+    "LONG":34.075839,
+    "LAT":-118.373029,
+    "PHONE":"",
+    "ADDRESS":"",
+    "IMAGE":""
+  },
+  {
+    "BUSINESS":"west elm",
+    "CATEGORY":"retail",
+    "LONG":34.075884,
+    "LAT":-118.372509,
+    "PHONE":"",
+    "ADDRESS":"",
+    "IMAGE":""
+  },
+  {
+    "BUSINESS":"Elan Hotel",
+    "CATEGORY":"hotel",
+    "LONG":34.076217,
+    "LAT":-118.374402,
+    "PHONE":"",
+    "ADDRESS":"",
+    "IMAGE":""
+  },
+  {
+    "BUSINESS":"Vegan Glory",
+    "CATEGORY":"dining",
+    "LONG":34.07644,
+    "LAT":-118.373037,
+    "PHONE":"",
+    "ADDRESS":"",
+    "IMAGE":""
+  },
+  {
+    "BUSINESS":"Hirozen",
+    "CATEGORY":"dining",
+    "LONG":34.076338,
+    "LAT":-118.372724,
+    "PHONE":"",
+    "ADDRESS":"",
+    "IMAGE":""
+  },
+  {
+    "BUSINESS":"Backyard Bowls",
+    "CATEGORY":"dining",
+    "LONG":34.076261,
+    "LAT":-118.370334,
+    "PHONE":"",
+    "ADDRESS":"",
+    "IMAGE":""
+  },
+  {
+    "BUSINESS":"Blue Bottle Coffee",
+    "CATEGORY":"dining",
+    "LONG":34.076263,
+    "LAT":-118.370226,
+    "PHONE":"",
+    "ADDRESS":"",
+    "IMAGE":""
+  },
+  {
+    "BUSINESS":"Eric Buterbaugh Florals",
+    "CATEGORY":"retail",
+    "LONG":34.076328,
+    "LAT":-118.369679,
+    "PHONE":"",
+    "ADDRESS":"",
+    "IMAGE":""
+  },
+  {
+    "BUSINESS":"Terrine",
+    "CATEGORY":"dining",
+    "LONG":34.076283,
+    "LAT":-118.369583,
+    "PHONE":"",
+    "ADDRESS":"",
+    "IMAGE":""
+  },
+  {
+    "BUSINESS":"Decor de Paris Textiles & Trims",
+    "CATEGORY":"retail",
+    "LONG":34.076274,
+    "LAT":-118.369245,
+    "PHONE":"",
+    "ADDRESS":"",
+    "IMAGE":""
+  },
+  {
+    "BUSINESS":"Bao Dim Sum House",
+    "CATEGORY":"dining",
+    "LONG":34.075881,
+    "LAT":-118.369881,
+    "PHONE":"",
+    "ADDRESS":"",
+    "IMAGE":""
+  }
+]

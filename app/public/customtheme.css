@@ -1,0 +1,40 @@
+#map-container { 
+	height: 300px 
+}
+
+#info {
+	background-color: gray;
+}
+
+#infoBox {
+	display: none;
+}
+#list {
+	background-color: pink;
+}
+
+#right {
+	padding-top: 50px;
+	background-color: blue;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.navbar {
+	height: 60px;
+}
+
+.navbar-default {
+	background-color: #afac9c;
+	border-bottom: 2px solid red;
+	border-color: #990b0b;
+}
+#list {
+	overflow: scroll;
+	/*max-height: 100%;*/
+}
+
+#main {
+	overflow: hidden;
+	max-height: 100%;
+}
