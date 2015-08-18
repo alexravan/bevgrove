@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css"/>     
+        <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=true&amp;libraries=places"></script>
+
+      
+        <script type="text/javascript">
+            var myLat = 0;
+            var myLng = 0;
+            var request = new XMLHttpRequest();
+            var me = new google.maps.LatLng(myLat, myLng);
+            var myLogin = "MaryHeller";
+            var xhr = new XMLHttpRequest();
+            var myOptions = {
+                        zoom: 13, // The larger the zoom number, the bigger the zoom
+                        center: me,
+                        mapTypeId: google.maps.MapTypeId.ROADMAP
+                    };
+            var map;
+            var marker;
+            var infowindow = new google.maps.InfoWindow();
+
+            function init() {
+                map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+                getMyLocation();
+            }
+
+            function getMyLocation() {
+                if (navigator.geolocation) { // the navigator.geolocation object is supported on your browser
+                    navigator.geolocation.getCurrentPosition(function(position) {
+                        myLat = position.coords.latitude;
+                        myLng = position.coords.longitude;
+                        sendMyLocation(myLat, myLng);
+                    });
+                }
+                else {
+                    alert("Geolocation is not supported by your web browser.  What a shame!");
+                }
+
+            }
+
+
+                Number.prototype.toRad = function() {
+                 return this * Math.PI / 180;
+                }
+
+
+            function haversine (lat1, lon1, lat2, lon2) {
+              
+                var R = 3958; // miles
+
+                //has a problem with the .toRad() method below.
+                var x1 = lat2-lat1;
+                var dLat = x1.toRad();  
+                var x2 = lon2-lon1;
+                var dLon = x2.toRad();  
+                var a = Math.sin(dLat/2) * Math.sin(dLat/2) + 
+                                Math.cos(lat1.toRad()) * Math.cos(lat2.toRad()) * 
+                                Math.sin(dLon/2) * Math.sin(dLon/2);  
+                var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a)); 
+                var d = R * c;
+
+                return d; 
+            }
+
+
+            function parseData () {
+                if (xhr.readyState == 4 && xhr.status == 200) {
+                    me = new google.maps.LatLng(myLat, myLng);                
+                    // Update map and go there...
+                    map.panTo(me);
+
+                    // Create a marker
+                    marker = new google.maps.Marker({
+                        position: me,
+                        title: myLogin,
+                        icon: 'icon.png'
+                    });
+                    marker.setMap(map);
+                        
+                    // Open info window on click of marker
+                    google.maps.event.addListener(marker, 'click', function() {
+                        infowindow.setContent(myLogin);
+                        infowindow.open(map, this);
+                    });
+                    converted = JSON.parse(xhr.responseText);
+
+                    for (i = 0; i < converted.length; i++) {
+                        var localID = converted[i]['login'];
+                        var localLat = converted[i]['lat'];
+                        var localLng =  converted[i]['lng'];
+                       
+                        var distance = haversine(localLat, localLng, myLat, myLng);
+                        var localLatLng = new google.maps.LatLng(localLat, localLng);
+                        
+                        // marker.setMap(map);
+
+                        var marker = new google.maps.Marker({
+                            position: localLatLng, 
+                            map: map, 
+                            title: localID + ": " + distance.toString() + " miles away"
+                        });
+                        marker.setMap(map);
+
+                        google.maps.event.addListener(marker, 'click', function() {
+                            infowindow.setContent(this.title);
+                            infowindow.open(map, this); });
+
+                    }
+            }
+        }
+
+            function sendMyLocation(myLat, myLng){
+
+                xhr.open("POST", 'https://secure-escarpment-4227.herokuapp.com/sendLocation', true);
+
+                //Send the proper header information along with the request
+                xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+
+                xhr.onreadystatechange = parseData;
+                
+                var params = "login=" + myLogin + "&" + "lat=" + myLat + "&" + "lng=" + myLng;
+                xhr.send(params);
+            }
+
+           
+        </script>
+    </head>
+        <body onload="init()">
+	        <div id="map_canvas"></div>
+        </body>
+</html>
