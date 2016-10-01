@@ -22,7 +22,7 @@
     <!-- Custom styles for this template -->
     <link href="customtheme.css" rel="stylesheet">
 
-    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCM8XEBnTV7brLnlVjqFdjNlFaJXjWbuCM&v=3.exp&signed_in=true"></script>
     <script>
       var parsed;
        var xhr = new XMLHttpRequest();
@@ -34,7 +34,6 @@
               console.log("Inside serverRequest");
 
               xhr.open("GET", "http://localhost:3000/locations", true);
-              // xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
               xhr.onreadystatechange = parseData;
 
               // locs = $.get("http://localhost:3000/locations", 

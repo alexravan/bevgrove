@@ -36,7 +36,7 @@ app.get('/locations', function(request, response) {
 	response.header("Access-Control-Allow-Origin", "*");
   	response.header("Access-Control-Allow-Headers", "X-Requested-With");
 
-	db.collection('locations', function(error1, coll) {
+	db.collection('locs', function(error1, coll) {
 		if(error1){
 			console.log('Error: database collection not found');
 			response.send(500);
@@ -78,7 +78,7 @@ app.get('/locations', function(request, response) {
 		// {"error" : "Whoops, something is wrong with your data!"}
 	if (business && cat && placeid) {
 
-		db.collection('locations', function(error1, coll) {
+		db.collection('locs', function(error1, coll) {
 
 			coll.upsert( { business : business } , toInsert,  { upsert: true }, function(updateErr, updated) {
 
