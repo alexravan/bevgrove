@@ -1,10 +1,11 @@
 {
-	"name": "assignment3",
-	"version": "0.0.1",
-	"dependencies": {
-		"express": "latest",
-		"mongodb": "latest",
-		"body-parser": "latest",
-		"validator":"latest"
-	}
+  "name": "assignment3",
+  "version": "0.0.1",
+  "dependencies": {
+    "body-parser": "latest",
+    "express": "latest",
+    "gcloud": "^0.24.0",
+    "mongodb": "latest",
+    "validator": "latest"
+  }
 }

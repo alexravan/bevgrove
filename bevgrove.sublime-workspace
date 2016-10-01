@@ -4,24 +4,44 @@
 		"selected_items":
 		[
 			[
+				"get",
+				"getElementsByName〔function〕"
+			],
+			[
+				"hide",
+				"hideBiz"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"pad",
+				"padding-right"
+			],
+			[
 				"list",
 				"listTable"
 			],
 			[
 				"bor",
 				"border-bottom"
-			],
-			[
-				"margin",
-				"margin-top: 〔property〕"
-			],
-			[
-				"pa",
-				"padding-right"
-			],
-			[
-				"pad",
-				"padding-left"
 			],
 			[
 				"ba",
@@ -64,10 +84,6 @@
 				"microposts"
 			],
 			[
-				"back",
-				"background-size"
-			],
-			[
 				"con",
 				"container"
 			],
@@ -98,10 +114,6 @@
 			[
 				"yelp",
 				"yelpname〔argument〕"
-			],
-			[
-				"get",
-				"getScript"
 			],
 			[
 				"paddi",
@@ -388,10 +400,6 @@
 				"variable-of"
 			],
 			[
-				"mar",
-				"margin-top"
-			],
-			[
 				"nav",
 				"navbar-brand"
 			],
@@ -506,58 +514,22 @@
 			[
 				"border-co",
 				"border-color"
-			],
-			[
-				"bord",
-				"border-top"
-			],
-			[
-				"backgroun",
-				"background-color"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "public/index2.html",
-			"settings":
-			{
-				"buffer_size": 7536,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "public/customtheme.css",
-			"settings":
-			{
-				"buffer_size": 467,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "server.js",
-			"settings":
-			{
-				"buffer_size": 1756,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "data.tsv",
-			"settings":
-			{
-				"buffer_size": 602,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 227.0,
 		"selected_items":
 		[
+			[
+				"sftp",
+				"SFTP: Browse Server…"
+			],
 			[
 				"pack",
 				"Package Control: Enable Package"
@@ -643,10 +615,6 @@
 				"SFTP: Browse Server…"
 			],
 			[
-				"sftp",
-				"SFTP: Browse Server…"
-			],
-			[
 				"html",
 				"Set Syntax: HTML"
 			],
@@ -675,7 +643,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 449.0
+		"width": 504.0
 	},
 	"console":
 	{
@@ -692,15 +660,25 @@
 	},
 	"file_history":
 	[
-		"/Users/AlexanderRavan/GitHub/comp20-aravan/secure-escarpment-4227/server.js",
-		"/Users/AlexanderRavan/GitHub/bevgrove/server.js",
+		"/Users/AlexanderRavan/GitHub/bevgrove/index.html",
+		"/Users/AlexanderRavan/GitHub/bevgrove/public/add.html",
 		"/Users/AlexanderRavan/GitHub/bevgrove/public/index2.html",
+		"/Users/AlexanderRavan/GitHub/bevgrove/places.html",
+		"/Users/AlexanderRavan/GitHub/comp20-spring2015-team18/pullyelp.html",
+		"/Users/AlexanderRavan/GitHub/bevgrove/server.js",
+		"/Users/AlexanderRavan/GitHub/comp20-aravan/secure-escarpment-4227/server.js",
+		"/Users/AlexanderRavan/GitHub/comp20-aravan/secure-escarpment-4227/README.md",
+		"/Users/AlexanderRavan/GitHub/bevgrove/bevgrove.sublime-workspace",
+		"/Users/AlexanderRavan/GitHub/bevgrove/bevgrove.sublime-project",
+		"/Users/AlexanderRavan/GitHub/bevgrove/data.tsv",
 		"/Users/AlexanderRavan/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/AlexanderRavan/GitHub/bevgrove/yelp.py",
+		"/Users/AlexanderRavan/GitHub/bevgrove/public/bootstrap/assets/js/ie10-viewport-bug-workaround.js",
+		"/Users/AlexanderRavan/GitHub/bevgrove/data2.tsv",
 		"/Users/AlexanderRavan/GitHub/bevgrove/app/test.html",
 		"/Users/AlexanderRavan/GitHub/bevgrove/app/index.html",
 		"/Users/AlexanderRavan/GitHub/bevgrove/app/index2.html",
 		"/Users/AlexanderRavan/GitHub/comp20-aravan/mmap/index.html",
-		"/Users/AlexanderRavan/GitHub/bevgrove/index.html",
 		"/Users/AlexanderRavan/GitHub/bevgrove/testmap.html",
 		"/Users/AlexanderRavan/GitHub/comp20-spring2015-team18/public/about.html",
 		"/Users/AlexanderRavan/GitHub/comp20-spring2015-team18/working/public/index.html",
@@ -809,17 +787,7 @@
 		"/Users/AlexanderRavan/GitHub/comp20-spring2015-team18/public/roses-chinese-restaurant-medford.html",
 		"/Users/AlexanderRavan/GitHub/comp20-spring2015-team18/public/saloon-somerville.html",
 		"/Users/AlexanderRavan/GitHub/comp20-spring2015-team18/public/template.html",
-		"/Users/AlexanderRavan/GitHub/comp20-spring2015-team18/public/the-painted-burro-somerville.html",
-		"/Users/AlexanderRavan/GitHub/comp20-spring2015-team18/public/rosebud-american-kitchen-and-bar-somerville-5.html",
-		"/Users/AlexanderRavan/GitHub/comp20-spring2015-team18/public/customtheme.css",
-		"/Users/AlexanderRavan/GitHub/comp20-spring2015-team18/public/dim-sum-cafe-medford.html",
-		"/Users/AlexanderRavan/GitHub/comp20-spring2015-team18/public/foundry-on-elm-somerville.html",
-		"/Users/AlexanderRavan/GitHub/comp20-spring2015-team18/public/highland-kitchen-somerville.html",
-		"/Users/AlexanderRavan/GitHub/comp20-spring2015-team18/public/pescatore.html",
-		"/Users/AlexanderRavan/GitHub/comp20-spring2015-team18/public/redbones-somerville.html",
-		"/Users/AlexanderRavan/GitHub/comp20-spring2015-team18/public/posto-somerville.html",
-		"/Users/AlexanderRavan/GitHub/comp20-spring2015-team18/public/restaurantsearch.html",
-		"/Users/AlexanderRavan/GitHub/comp20-spring2015-team18/public/pullyelp.js"
+		"/Users/AlexanderRavan/GitHub/comp20-spring2015-team18/public/the-painted-burro-somerville.html"
 	],
 	"find":
 	{
@@ -837,6 +805,34 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"location",
+			"show",
+			"hide",
+			"show",
+			"hide",
+			"infoBox",
+			"info",
+			"hide",
+			"hidden",
+			"list",
+			"show",
+			"listTa",
+			"list",
+			"fotora",
+			"info",
+			"img",
+			"infoImg",
+			"fotor",
+			"fotora",
+			"if",
+			"localhost",
+			"local12",
+			"local",
+			"active",
+			"hidde",
+			",",
+			"infobox",
+			"hidden",
 			"test",
 			"get",
 			"mongo",
@@ -936,35 +932,7 @@
 			"x",
 			"hor",
 			"promp",
-			"promt",
-			"fst",
-			"car",
-			"fst",
-			"raise",
-			"?",
-			"local",
-			"mongo",
-			"12",
-			"local",
-			"near",
-			"print",
-			"10",
-			"add:W",
-			"negated",
-			"overf",
-			"here",
-			"small",
-			"digits",
-			"digit",
-			"LargeP",
-			"add:with",
-			"strictly",
-			"new",
-			"negated",
-			"Integer",
-			"strictly",
-			"class Integer",
-			"Integer"
+			"promt"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -982,129 +950,8 @@
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "public/index2.html",
-					"settings":
-					{
-						"buffer_size": 7536,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "public/customtheme.css",
-					"settings":
-					{
-						"buffer_size": 467,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "server.js",
-					"settings":
-					{
-						"buffer_size": 1756,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "data.tsv",
-					"settings":
-					{
-						"buffer_size": 602,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],

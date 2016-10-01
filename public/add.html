@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+  	<!-- Bootstrap core CSS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script> -->
+    <script src="https://maps.googleapis.com/maps/api/js?signed_in=true&libraries=places"></script>
+
+
+  	</head>
+
+	<script>
+  var reqCount = 0;
+
+	function send()
+	{
+		var biz = document.getElementById('business').value;
+		var placeid = document.getElementById('placeID').value;
+		var img1 = document.getElementById('img1').value;
+		var img2 = document.getElementById('img2').value;
+		var img3 = document.getElementById('img3').value;
+		var type = document.getElementById('type').value;
+
+
+		console.log(biz, placeid, img1, type);
+		console.log("bja");
+
+    
+		service.getDetails({
+            placeId: id
+          }, function(place, status) {
+
+            if (status === google.maps.places.PlacesServiceStatus.OK) {
+              console.log("got here for" + i)
+              document.getElementById(targetDiv).innerHTML = (
+                "<h5>" + place.address_components[0]['short_name'] + 
+                " " + place.address_components[1]['long_name'] + "<br>" + 
+                place.address_components[2]['long_name'] + ", " + place.address_components[3]['short_name'] + 
+                " " + place.address_components[5]['long_name'] + "</h5>" + 
+                "<h5>" + place.formatted_phone_number + "</h5>" +
+                "<h5><a href='" + place.website + "'>Website</a></h5>"); 
+             
+              document.getElementById(targetDiv).innerHTML += (
+                '<div class="fotorama">');
+              if (data[i]['img1'] != '') { document.getElementById(targetDiv).innerHTML += (
+                "<img class='infoImg' src='" + data[i]['img1'] + "'>");
+              } 
+              if (data[i]['img2'] != '') { document.getElementById(targetDiv).innerHTML += (
+                "<img class='infoImg' src='" + data[i]['img2'] + "'>");
+              } 
+              if (data[i]['img3'] != '') { document.getElementById(targetDiv).innerHTML += (
+                "<img class='infoImg' src='" + data[i]['img3'] + "'>");
+              }
+              document.getElementById(targetDiv).innerHTML += (
+                '</div>');
+            } else {
+              console.log(status);
+            }
+          });
+
+
+        $.post("http://localhost:3000/addBusiness", { business: biz, 
+        						 cat : type, 
+        						 img1 : img1, 
+        						 img2 : img2, 
+        						 img3 : img3,
+        						 PlaceID : placeid 
+        }).done(alert("Thanks for rating!"));
+        // window.location.reload()
+    }
+	</script>
+  <body>
+  	<div class='col-xs-8'>
+  	<form id='input' name='input' role="form">
+  		<!-- <div class="form=group"> -->
+
+  			<div class='col-xs-12' >
+	  			business name:
+	  			<input type='text'  id="business">
+			</div>
+
+			<div class='col-xs-12'>
+	  			Google PlaceID:
+	  			<input type='text' id="placeID">
+  			</div>
+
+			<div class='col-xs-12'>						
+	  			Image 1:
+	  			<input type='text' id="img1">
+			</div>
+
+			<div class='col-xs-12'>			
+	  			Image 2:
+	  			<input type='text' id="img2">
+			</div>
+
+			<div class='col-xs-12'>
+	  			Image 3:
+	  			<input type='text' id="img3">
+			</div>
+
+			<!-- <input> -->
+			<div class='col-xs-12'>
+			Business type:
+	  			<select id='type' form='input'>
+				  <option value="food">Dining and Food</option>
+				  <option value="drink">Coffee, Bars, Beverages</option>
+				  <option value="retail">Retail Stores</option>
+				  <option value="hotel">Hotels</option>
+				</select>
+			</div>
+		</form>
+		<button onclick="send()" type="button">Submit</button>
+	</div>
+  </body>
