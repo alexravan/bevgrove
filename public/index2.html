@@ -27,7 +27,7 @@
 
         <!-- <script src="https://maps.googleapis.com/maps/api/js?signed_in=true&libraries=places"></script> -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCM8XEBnTV7brLnlVjqFdjNlFaJXjWbuCM&v=3.exp&signed_in=true"></script>
-        
+
 
     <!-- fotorama.css & fotorama.js. -->
     <link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
@@ -70,7 +70,7 @@
 
       function getLocs() {
               // xhr.open("GET", "https://bevgrove.herokuapp.com/locations", true);
-              xhr.open("GET", "http://127.0.0.1:3000/locations", true);
+              xhr.open("GET", "/locations", true);
 
               xhr.onreadystatechange = parseData;
 
