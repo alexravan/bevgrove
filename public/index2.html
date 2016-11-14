@@ -26,7 +26,9 @@
     <link href="customtheme.css" rel="stylesheet">
 
         <!-- <script src="https://maps.googleapis.com/maps/api/js?signed_in=true&libraries=places"></script> -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCM8XEBnTV7brLnlVjqFdjNlFaJXjWbuCM&v=3.exp&signed_in=true"></script>
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCM8XEBnTV7brLnlVjqFdjNlFaJXjWbuCM&v=3.exp&signed_in=true"></script> -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgLmAXVYMiaEKLLGKShQ-_ZZccuGEDOhI&callback=initialize&libraries=places"
+    async defer></script>
 
 
     <!-- fotorama.css & fotorama.js. -->
@@ -41,11 +43,6 @@
      function toggleVis(i){
         var n = '#biz' + i.toString();
         $(n).toggle();
-        // if ($(n).is(":visible")  ) {
-        //    $(n).hide();
-        // } else {
-        //     $(n).show();
-        // }
       }
 
       var parsed;
@@ -96,15 +93,9 @@
       //generates table of locations
       function parsePlace(data, i, targetDiv) {  
         console.log(data);
-        // console.log(i);
         console.log("target div is: " + targetDiv);
         var id = data[i]['PlaceID'];
 
-        // if (reqCount >= 9) {
-        //     console.log('staaaaaaaaaaaaahp')
-        //     reqCount = 0;
-        //     window.setTimeout(parsePlace(data, i, targetDiv), 3000)
-        // } else {
               service.getDetails({
                   placeId: id
                 }, function run(place, status) {
