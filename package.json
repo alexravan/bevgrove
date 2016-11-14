@@ -4,7 +4,6 @@
   "dependencies": {
     "body-parser": "latest",
     "express": "latest",
-    "gcloud": "^0.24.0",
     "mongodb": "latest",
     "validator": "latest"
   }
