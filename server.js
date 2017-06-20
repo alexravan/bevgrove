@@ -53,17 +53,17 @@ app.get('/locations', function(request, response) {
 
 	db.collection('locs', function(error1, coll) {
 		if(error1){
-			console.log('Error: database collection not found');
+			// console.log('Error: database collection not found');
 			response.send(500);
 		}
 		
 		var id = coll.find({}).toArray(function (error2, cursor) {
 			if (error2) {
-				console.log("Find faile :(");
+				// console.log("Find faile :(");
 				response.send(500);
 			} else {
-				console.log("Find succeeded!");
-				console.log(cursor);
+				// console.log("Find succeeded!");
+				// console.log(cursor);
 				response.send(cursor);
 			}
 		});
