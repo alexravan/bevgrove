@@ -92,15 +92,15 @@
       var reqCount = 0;
       //generates table of locations
       function parsePlace(data, i, targetDiv) {  
-        console.log(data);
-        console.log("target div is: " + targetDiv);
+        // console.log(data);
+        // console.log("target div is: " + targetDiv);
         var id = data[i]['PlaceID'];
 
               service.getDetails({
                   placeId: id
                 }, function run(place, status) {
                   if (status === google.maps.places.PlacesServiceStatus.OK) {
-                    console.log("got here for" + i)
+                    // console.log("got here for" + i)
                     document.getElementById(targetDiv).innerHTML = (
                       "<h5>" + place.address_components[0]['short_name'] + 
                       " " + place.address_components[1]['long_name'] + "<br>" + 
@@ -124,12 +124,12 @@
                       '</div>');
                   } else {
                     if (status == google.maps.GeocoderStatus.OVER_QUERY_LIMIT) {
-                      // console.log(status);
-                      // console.log("bitch i might be");
+                      console.log(status);
+                      console.log("bitch i might be");
                       // setTimeout(run(place, status), 3000);
                     }
                       
-                    // console.log(status);
+                    console.log(status);
                   }
                 });
         // }
@@ -184,14 +184,14 @@
                             content += '</td>' + '</tr>';
                             
 
-                            // console.log(content);
+                            console.log(content);
 
                             document.getElementById('listTable').innerHTML += content;
 
                             targetDiv = "biz" + i.toString();
 
                             if (reqCount >= 9) {
-                                console.log('staaaaaaaaaaaaahp')
+                                // console.log('staaaaaaaaaaaaahp')
                                 reqCount = 0;
                                 setTimeout(parsePlace(dataClone, i, targetDiv), 3000)
                             } else {
@@ -220,8 +220,8 @@
                                           
                                           var doo = document.getElementById("biz" +  i.toString())
                                           $(bizToShow).show();
-                                          console.log(bizToShow)
-                                          console.log("SCROLL GARDEN")
+                                          // console.log(bizToShow)
+                                          // console.log("SCROLL GARDEN")
                                           doo.scrollIntoView({block: "end", behavior: "smooth"});
                                           // document.body.scrollTop -= 100;
                                         }
@@ -245,12 +245,12 @@
     }
   
   function loop (locs){
-  console.log("before readystate");
-    console.log(locs);
+  // console.log("before readystate");
+    // console.log(locs);
   // for (var i = 12; i >= 0; i--) 
   // if (xhr.readyState == 4 && xhr.status == 200){
-    console.log("in readystate");
-    console.log(locs);
+    // console.log("in readystate");
+    // console.log(locs);
     $.each(locs, function(){
         myLatlng = new google.maps.LatLng(locs[i]['lat'],locs[i]['lng'])
         marker = new google.maps.Marker({
