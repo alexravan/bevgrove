@@ -8,7 +8,7 @@ var fs = require("fs");
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-var mongoUri = process.env.MONGOLAB_URI || process.env.MONGOHQ_URL || 'mongodb://localhost/test';
+// var mongoUri = process.env.MONGOLAB_URI || process.env.MONGOHQ_URL || 'mongodb://localhost/test';
 var mongoUri = 'mongodb://alex:dv1000@ds035623.mlab.com:35623/heroku_vphjj155'
 var MongoClient = require('mongodb').MongoClient, format = require('util').format;
 var db = MongoClient.connect(mongoUri, function(error, databaseConnection) {
@@ -31,6 +31,19 @@ app.get('/', function(request, response) {
 	response.sendfile('public/index2.html');
 });
 
+
+app.get('/about', function(request, response) {
+
+	response.set('Content-Type', 'text/html');
+	// response.header("Access-Control-Allow-Origin", "*");
+	// response.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+
+	// var indexPage = '';
+	// indexPage += "<!DOCTYPE HTML><html><head><title>f</title></head><body><h1>Welcome to TBD</h1>";				
+	// indexPage += "</body></html>"
+					// response.send(indexPage);
+	response.sendfile('public/about.html');
+});
 
 app.get('/locations', function(request, response) {
 

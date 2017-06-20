@@ -7,7 +7,9 @@
 	height: 100%
 }
 
-
+body {
+	background-color: #f5f4f1;
+}
 .right {
 	overflow: auto;
 }
@@ -90,4 +92,12 @@ a:active {
 a:visited {
 	color: #990b0b;
 	text-decoration: none;
+}
+
+#content {
+	margin-top: 120px;
+}
+
+img {
+	max-width: 100%;
 }
